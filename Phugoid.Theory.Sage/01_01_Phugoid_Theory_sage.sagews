@@ -1,7 +1,7 @@
 ︠d5f1008c-d5f7-4b93-a6fc-7ce45beef10fa︠
 %auto
 typeset_mode(true)
-︡a4edcd7b-19d3-472e-85d4-825ea16cc8fe︡{"auto":true}︡
+︡beb73a59-4f67-46d9-97ac-ae63e9f64718︡{"auto":true}︡
 ︠80b4a62c-57cb-49a1-a41b-569c01c2a336i︠
 %md
 
@@ -10,12 +10,12 @@ typeset_mode(true)
 Based on [numerical-mooc / lessons / 01_phugoid / 01_01_Phugoid_Theory.ipynb](http://nbviewer.ipython.org/github/numerical-mooc/numerical-mooc/blob/master/lessons/01_phugoid/01_01_Phugoid_Theory.ipynb) from [MAE6286](http://openedx.seas.gwu.edu/courses/GW/MAE6286/2014_fall/about).
 
 Numbers in parentheses are equation numbers in the IPython notebook.
-︡e184e6a4-1760-4dc9-9b12-ba7799a46615︡{"md":"\n# 01_01_Phugoid_Theory as SageMathCloud worksheet\n\nBased on [numerical-mooc / lessons / 01_phugoid / 01_01_Phugoid_Theory.ipynb](http://nbviewer.ipython.org/github/numerical-mooc/numerical-mooc/blob/master/lessons/01_phugoid/01_01_Phugoid_Theory.ipynb) from [MAE6286](http://openedx.seas.gwu.edu/courses/GW/MAE6286/2014_fall/about).\n\nNumbers in parentheses are equation numbers in the IPython notebook.\n"}︡
+︡ebff28b2-acca-4b8a-bb8c-4d1957ad7193︡{"md":"\n# 01_01_Phugoid_Theory as SageMathCloud worksheet\n\nBased on [numerical-mooc / lessons / 01_phugoid / 01_01_Phugoid_Theory.ipynb](http://nbviewer.ipython.org/github/numerical-mooc/numerical-mooc/blob/master/lessons/01_phugoid/01_01_Phugoid_Theory.ipynb) from [MAE6286](http://openedx.seas.gwu.edu/courses/GW/MAE6286/2014_fall/about).\n\nNumbers in parentheses are equation numbers in the IPython notebook.\n"}︡
 ︠bfb06e38-c6ff-4ea0-9a39-63726b4d3af1i︠
 %html
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type"><a href="http://openedx.seas.gwu.edu/courses/GW/MAE6286/2014_fall/">MAE6286</a> phugoid flight tutorial transcribed to sage</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/DrXyzzy/assignment-bank" property="cc:attributionName" rel="cc:attributionURL">Hal Snyder</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/numerical-mooc/assignment-bank" rel="dct:source">https://github.com/numerical-mooc/assignment-bank</a>.
-︡914bfaf8-d661-407e-bfa5-88c1f8e4321f︡{"html":"\n<a rel=\"license\" href=\"http://creativecommons.org/licenses/by/4.0/\"><img alt=\"Creative Commons License\" style=\"border-width:0\" src=\"https://i.creativecommons.org/l/by/4.0/80x15.png\" /></a><br /><span xmlns:dct=\"http://purl.org/dc/terms/\" href=\"http://purl.org/dc/dcmitype/InteractiveResource\" property=\"dct:title\" rel=\"dct:type\"><a href=\"http://openedx.seas.gwu.edu/courses/GW/MAE6286/2014_fall/\">MAE6286</a> phugoid flight tutorial transcribed to sage</span> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://github.com/DrXyzzy/assignment-bank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">Hal Snyder</a> is licensed under a <a rel=\"license\" href=\"http://creativecommons.org/licenses/by/4.0/\">Creative Commons Attribution 4.0 International License</a>.<br />Based on a work at <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://github.com/numerical-mooc/assignment-bank\" rel=\"dct:source\">https://github.com/numerical-mooc/assignment-bank</a>.\n"}︡
+︡3bd1e757-d162-47b7-b9d8-309c117eee44︡{"html":"\n<a rel=\"license\" href=\"http://creativecommons.org/licenses/by/4.0/\"><img alt=\"Creative Commons License\" style=\"border-width:0\" src=\"https://i.creativecommons.org/l/by/4.0/80x15.png\" /></a><br /><span xmlns:dct=\"http://purl.org/dc/terms/\" href=\"http://purl.org/dc/dcmitype/InteractiveResource\" property=\"dct:title\" rel=\"dct:type\"><a href=\"http://openedx.seas.gwu.edu/courses/GW/MAE6286/2014_fall/\">MAE6286</a> phugoid flight tutorial transcribed to sage</span> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://github.com/DrXyzzy/assignment-bank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">Hal Snyder</a> is licensed under a <a rel=\"license\" href=\"http://creativecommons.org/licenses/by/4.0/\">Creative Commons Attribution 4.0 International License</a>.<br />Based on a work at <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://github.com/numerical-mooc/assignment-bank\" rel=\"dct:source\">https://github.com/numerical-mooc/assignment-bank</a>.\n"}︡
 ︠32ae929c-1d4a-4e43-a89b-1d53292d0be3︠
 # (1) equation of lift
 
@@ -28,7 +28,7 @@ Numbers in parentheses are equation numbers in the IPython notebook.
 %var L,S,rho,v, C_L
 eq_L = L == C_L * S * (1/2) * rho * v^2
 eq_L
-︡c1f34103-39e9-4ae0-82e9-72b678855880︡{"tex":{"tex":"L = \\frac{1}{2} \\, C_{L} S \\rho v^{2}","display":true}}︡
+︡c6fba2a8-e859-4d15-ae36-aa6fc197317f︡{"tex":{"tex":"L = \\frac{1}{2} \\, C_{L} S \\rho v^{2}","display":true}}︡
 ︠3cf22e93-3465-4af7-b504-216ba9253844︠
 # (2) equation of drag
 
@@ -39,7 +39,7 @@ eq_L
 %var D,C_D
 eq_D = D == C_D * S * (1/2) * rho * v^2
 eq_D
-︡d6f9a463-e01c-4e63-9705-c46376539e2a︡{"tex":{"tex":"D = \\frac{1}{2} \\, C_{D} S \\rho v^{2}","display":true}}︡
+︡7c683e0a-0f24-4794-a154-405ec5e6263d︡{"tex":{"tex":"D = \\frac{1}{2} \\, C_{D} S \\rho v^{2}","display":true}}︡
 ︠e9267c27-b7e4-4edb-beef-7bef84b30751︠
 # (3) equation of force perpendicular to the trajectory
 
@@ -49,13 +49,13 @@ eq_D
 %var W,theta
 eq_fprp = L == W * cos(theta)
 eq_fprp
-︡fcf7db91-2c07-47f6-83ed-d536f06d12f7︡{"tex":{"tex":"L = W \\cos\\left(\\theta\\right)","display":true}}︡
+︡aa8d9746-0cd4-436d-9906-aa46a736afb8︡{"tex":{"tex":"L = W \\cos\\left(\\theta\\right)","display":true}}︡
 ︠5787cac9-243d-426b-89d5-155e64ebdd67︠
 # (3) equation of force parallel to the trajectory
 
 eq_fpar = D == W * sin(theta)
 eq_fpar
-︡3131a6a0-077c-4596-b675-df251a72b8e8︡{"tex":{"tex":"D = W \\sin\\left(\\theta\\right)","display":true}}︡
+︡18e605bc-78e0-49d6-887d-7679c467bcef︡{"tex":{"tex":"D = W \\sin\\left(\\theta\\right)","display":true}}︡
 ︠25e955ff-628a-4b02-afc5-269f546b980e︠
 # (4) at trim velocity, lift matches weight
 
@@ -65,14 +65,14 @@ eq_fpar
 eq_L2 = eq_L.subs(v = v_t,L = W)
 eq_L2
 
-︡f42a8fe7-68ce-4b42-bce7-f272be52f96c︡{"tex":{"tex":"W = \\frac{1}{2} \\, C_{L} S \\rho v_{t}^{2}","display":true}}︡
+︡3bb3e4a2-1bc5-4197-9e88-4785d70734df︡{"tex":{"tex":"W = \\frac{1}{2} \\, C_{L} S \\rho v_{t}^{2}","display":true}}︡
 ︠7f07e7b6-c929-42ab-a456-1f3a4d26ce25︠
 # (5) lift ratio as function of flight velocity
 
 eq_lr = eq_L / eq_L2
 eq_lr
 
-︡29b6873e-f6a6-49e4-ae07-d31dd3d1858e︡{"tex":{"tex":"\\frac{L}{W} = \\frac{v^{2}}{v_{t}^{2}}","display":true}}︡
+︡8e82be13-b66c-4ca4-816a-2888c2f8d482︡{"tex":{"tex":"\\frac{L}{W} = \\frac{v^{2}}{v_{t}^{2}}","display":true}}︡
 ︠a668adb4-f127-4ee1-a3c9-470da274501e︠
 # (6) balance centripetal force from curve of plane's path and gravity
 
@@ -84,13 +84,13 @@ eq_lr
 eq_gbal = (L - W * cos(theta) == (W / g) * (v^2 / R)).add_to_both_sides(W * cos(theta))
 eq_gbal
 
-︡b47f1a7a-8a98-4017-9958-669a9354f392︡{"tex":{"tex":"L = W \\cos\\left(\\theta\\right) + \\frac{W v^{2}}{R g}","display":true}}︡
+︡f11d3de6-75e3-426b-bd32-7688b7735345︡{"tex":{"tex":"L = W \\cos\\left(\\theta\\right) + \\frac{W v^{2}}{R g}","display":true}}︡
 ︠12297820-6481-49ab-84a2-ec63feb1e5a1︠
 # (7) phugoid equation in terms of velocity
 
 eq_phv = (eq_gbal / W).subs_expr(eq_lr).factor().expand().add_to_both_sides(- cos(theta))
 eq_phv
-︡a83ee771-84a9-406a-addc-3cba513bd9be︡{"tex":{"tex":"\\frac{v^{2}}{v_{t}^{2}} - \\cos\\left(\\theta\\right) = \\frac{v^{2}}{R g}","display":true}}︡
+︡21a7508c-2f16-46ad-a7f9-d92c5a67d6e3︡{"tex":{"tex":"\\frac{v^{2}}{v_{t}^{2}} - \\cos\\left(\\theta\\right) = \\frac{v^{2}}{R g}","display":true}}︡
 ︠fd56fe62-5711-40fc-869c-eca66382e05d︠
 # (8) simplify - no friction, lift does no work, total energy is constant
 # also set zero energy point at reference horizontal (z == 0)
@@ -103,27 +103,27 @@ eq_ze = (1/2) * v^2 - g * z == 0
 eq_ze
 eq_zt = eq_ze.subs(v = v_t, z = z_t)
 eq_zt
-︡2230b0e7-6f42-47a8-9152-8efbf4603207︡{"tex":{"tex":"\\frac{1}{2} \\, v^{2} - g z = 0","display":true}}︡{"tex":{"tex":"\\frac{1}{2} \\, v_{t}^{2} - g z_{t} = 0","display":true}}︡
+︡d7b55476-80e9-4960-8631-602396f2f6f4︡{"tex":{"tex":"\\frac{1}{2} \\, v^{2} - g z = 0","display":true}}︡{"tex":{"tex":"\\frac{1}{2} \\, v_{t}^{2} - g z_{t} = 0","display":true}}︡
 ︠45262911-1c0c-468d-acf8-148a636d8c41︠
 # rearrange z equation
 
 eq_ze2 = eq_ze.solve(v^2)[0]
 eq_ze2
-︡35e02ffa-b252-4779-90dc-b287142cc9e5︡{"tex":{"tex":"v^{2} = 2 \\, g z","display":true}}︡
+︡1feeb7ae-5c93-4d66-be5c-f6e953c5e0a9︡{"tex":{"tex":"v^{2} = 2 \\, g z","display":true}}︡
 ︠9ba43ce9-7d1f-4432-acbf-977c0ee3573d︠
 # rearrange z_t equation
 
 eq_zt2 = eq_zt.solve(v_t^2)[0]
 eq_zt2
 
-︡69bf586e-ca48-44f7-969f-14ba9d3e3d2a︡{"tex":{"tex":"v_{t}^{2} = 2 \\, g z_{t}","display":true}}︡
+︡efeba7fa-f630-4970-bbb9-8729775d0b34︡{"tex":{"tex":"v_{t}^{2} = 2 \\, g z_{t}","display":true}}︡
 ︠d4c4ce68-6b5d-4a96-b22f-07be909e4671︠
 # rewrite phugoid equation in terms of z, step 1
 
 eq_p2 = eq_phv.subs_expr(eq_ze2)
 eq_p2
 
-︡1c66ec30-5156-4642-b8f7-d07fc007e1d0︡{"tex":{"tex":"\\frac{2 \\, g z}{v_{t}^{2}} - \\cos\\left(\\theta\\right) = \\frac{2 \\, z}{R}","display":true}}︡
+︡c5a698ad-e8f9-4c67-b6f6-5a231d1f54b8︡{"tex":{"tex":"\\frac{2 \\, g z}{v_{t}^{2}} - \\cos\\left(\\theta\\right) = \\frac{2 \\, z}{R}","display":true}}︡
 ︠e4d6d896-a770-4324-a824-029833714bb8︠
 # (9) rewrite phugoid equation in terms of z, step 2
 
@@ -131,132 +131,80 @@ eq_phz = (eq_p2 * eq_zt2).expand().subs_expr(eq_zt2).multiply_both_sides(1/(2*g*
 eq_phz
 
 
-︡505a902a-4324-4d09-bc46-d7441bb75353︡{"tex":{"tex":"\\frac{z}{z_{t}} - \\cos\\left(\\theta\\right) = \\frac{2 \\, z}{R}","display":true}}︡
+︡c591a727-bb97-4b92-83fe-b8db1aa99a45︡{"tex":{"tex":"\\frac{z}{z_{t}} - \\cos\\left(\\theta\\right) = \\frac{2 \\, z}{R}","display":true}}︡
 ︠560419ef-427c-4fbe-a937-7359a692964b︠
-# (10) diff eq for theta vs s
+# derivatives - sage notation is preceded by LaTeX version
 
-%var s
+# (10a) derivative of theta with respect to s, with chain rule
 
-theta = function('theta',s)
-de1 = 1 / R == diff(theta,s)
-de1
-︡f787de0e-e315-4da1-b6f1-f422a97fc8b6︡{"tex":{"tex":"\\frac{1}{R} = D[0]\\left(\\theta\\right)\\left(s\\right)","display":true}}︡
-︠4f49d796-0944-4247-b595-559867753f39︠
-# (10) diff eq for z vs s
+%var s,R
+z = function('z')
+theta = function('theta')
 
-z = function('z',s)
-de2 = sin(theta) == - diff(z,s)
-de2
-︡e961b721-bd48-435f-9b38-6df31f434584︡{"tex":{"tex":"\\sin\\left(\\theta\\left(s\\right)\\right) = -D[0]\\left(z\\right)\\left(s\\right)","display":true}}︡
-︠6e65714a-0783-4bee-9756-0d4adcb9a7fe︠
-f = z ^ (1/2) * cos(theta)
-f
-type(f)
-type(z)
-type(s)
-︡bd53f67d-2fbc-49ae-8e95-11e2e4ea030e︡{"tex":{"tex":"\\cos\\left(\\theta\\left(s\\right)\\right) \\sqrt{z\\left(s\\right)}","display":true}}︡{"stdout":"<type 'sage.symbolic.expression.Expression'>\n"}︡{"stdout":"<type 'sage.symbolic.expression.Expression'>\n"}︡{"stdout":"<type 'sage.symbolic.expression.Expression'>\n"}︡
-︠c27d6936-9088-4ca1-bd0a-7ada4c334068︠
+show('1/R=\\frac{d{\\theta}}{ds}=\\frac{d{\\theta}}{dz}\\frac{dz}{ds}')
+eq10a = 1/R == (theta(z(s))).derivative(s)
+eq10a
 
+︡8b1fa20e-4ed6-4e8b-9270-335b4ac806c2︡{"tex":{"tex":"1/R=\\frac{d{\\theta}}{ds}=\\frac{d{\\theta}}{dz}\\frac{dz}{ds}","display":true}}︡{"tex":{"tex":"\\frac{1}{R} = D[0]\\left(\\theta\\right)\\left(z\\left(s\\right)\\right) D[0]\\left(z\\right)\\left(s\\right)","display":true}}︡
+︠94e3c7e7-46af-4f38-86fe-5dfa934ea983︠
+# (10b) derivative of z with respect to s
 
-# treat infinitesimals naively
+show('\\frac{dz}{ds}=-sin{\\theta(s)}')
+eq10b = z(s).derivative(s) == -sin(theta(s))
+eq10b
 
-# (10) diff eq for glide angle vs trajectory length
+︡359c2c04-f49c-4148-86ec-ff232f5a15ae︡{"tex":{"tex":"\\frac{dz}{ds}=-sin{\\theta(s)}","display":true}}︡{"tex":{"tex":"D[0]\\left(z\\right)\\left(s\\right) = -\\sin\\left(\\theta\\left(s\\right)\\right)","display":true}}︡
+︠8cad6f3e-1c67-4a0c-bcb1-fcd091368144︠
+# (11) combine previous two steps for derivative of theta with respect to z
 
-# ds    tiny arc length of trajectory
-# dth   tiny glide angle
+show('1/R=-sin{\\theta}\\frac{d{\\theta}}{dz}')
+eq11 = eq10a.subs(eq10b)
+eq11
 
-%var ds
-dth = var('dth',latex_name = "d\\theta")
-
-eq_dthds = 1 / R == dth/ds
-eq_dthds
-︡6c873af5-130f-4030-a9aa-6fb00031c5b8︡{"tex":{"tex":"\\frac{1}{R} = \\frac{d\\theta}{\\mathit{ds}}","display":true}}︡
-︠dae5a7c6-7a26-4d58-9bad-bb68ef37d264︠
-# (10) diff eq for depth below horizontal vs trajectory length
-
-# dz    tiny depth below horizontal
-
-%var dz
-
-eq_dzds = sin(theta) == - dz/ds
-eq_dzds
-︡157f055e-ff41-444c-99df-4605dbcbc0c3︡{"tex":{"tex":"\\sin\\left(\\theta\\left(s\\right)\\right) = -\\frac{\\mathit{dz}}{\\mathit{ds}}","display":true}}︡
-︠d9e1a02c-a5e3-4d12-a4cc-bb335e29017a︠
-# (11) diff eq for glide angle vs depth below horizontal
-
-# chain rule is multiplication of infinitesimals
-
-eq_dthdz = (eq_dthds / eq_dzds)
-eq_dthdz
-︡3819eb43-a5d9-410b-aecb-7cfa8eb30b52︡{"tex":{"tex":"\\frac{1}{R \\sin\\left(\\theta\\left(s\\right)\\right)} = -\\frac{d\\theta}{\\mathit{dz}}","display":true}}︡
-︠0963f5bb-77ff-429b-8f56-37dee9741d45︠
+︡02f027ab-c3e3-4206-a4b4-1b8630c6dd3a︡{"tex":{"tex":"1/R=-sin{\\theta}\\frac{d{\\theta}}{dz}","display":true}}︡{"tex":{"tex":"\\frac{1}{R} = -\\sin\\left(\\theta\\left(s\\right)\\right) D[0]\\left(\\theta\\right)\\left(z\\left(s\\right)\\right)","display":true}}︡
+︠5e0dac2c-c685-46f3-8400-f95a6ace2ee1︠
 # (12) multiply phugoid equation (9) by 1/(2*sqrt(z))
 
-eq_phz2 = eq_phz.multiply_both_sides(1/(2*z^(1/2))).expand()
-eq_phz2
-︡4d35f473-9b24-47f8-af23-cd5f264d7f8b︡{"tex":{"tex":"-\\frac{\\cos\\left(\\theta\\right)}{2 \\, \\sqrt{z\\left(s\\right)}} + \\frac{z}{2 \\, z_{t} \\sqrt{z\\left(s\\right)}} = \\frac{z}{R \\sqrt{z\\left(s\\right)}}","display":true}}︡
+# z and theta are now functions
+
+eq_phz
+eq_phzf = eq_phz.subs(z=z(s),theta=theta(z(s)))
+eq_phzf
+eq_phzf2 = eq_phzf.multiply_both_sides(1/(2*sqrt(z(s)))).simplify_radical().simplify()
+eq_phzf2
+
+
+︡a747da58-f825-4b04-882c-3ae5d1c5f3e7︡{"tex":{"tex":"\\frac{z}{z_{t}} - \\cos\\left(\\theta\\right) = \\frac{2 \\, z}{R}","display":true}}︡{"tex":{"tex":"\\frac{z\\left(s\\right)}{z_{t}} - \\cos\\left(\\theta\\left(z\\left(s\\right)\\right)\\right) = \\frac{2 \\, z\\left(s\\right)}{R}","display":true}}︡{"tex":{"tex":"-\\frac{z_{t} \\cos\\left(\\theta\\left(z\\left(s\\right)\\right)\\right) - z\\left(s\\right)}{2 \\, z_{t} \\sqrt{z\\left(s\\right)}} = \\frac{\\sqrt{z\\left(s\\right)}}{R}","display":true}}︡
 ︠220542da-9636-4dc4-9515-a94a225d6cc0︠
 # (13) substitute for 1/R in (12)
 
-# split this step to avoid long line in worksheet
-eq_phz3a = eq_phz2.subs(eq_dthdz.multiply_both_sides(sin(theta)))
-eq_phz3b = eq_phz3a.add_to_both_sides((cos(theta)/(2*z^(1/2))))
-eq_phz3b
-︡72421636-1618-47cc-863a-b7e2c5a8bbd6︡{"tex":{"tex":"-\\frac{\\cos\\left(\\theta\\right)}{2 \\, \\sqrt{z\\left(s\\right)}} + \\frac{\\cos\\left(\\theta\\left(s\\right)\\right)}{2 \\, \\sqrt{z\\left(s\\right)}} + \\frac{z}{2 \\, z_{t} \\sqrt{z\\left(s\\right)}} = -\\frac{d\\theta z \\sin\\left(\\theta\\left(s\\right)\\right)}{\\mathit{dz} \\sqrt{z\\left(s\\right)}} + \\frac{\\cos\\left(\\theta\\left(s\\right)\\right)}{2 \\, \\sqrt{z\\left(s\\right)}}","display":true}}︡
+eq_phzf3 = eq_phzf2.expand().add_to_both_sides(cos(theta(z(s)))/(2*sqrt(z(s))))
+eq_phzf3
+eq_phzf4 = eq_phzf3.subs(eq11)
+eq_phzf4
+
+︡745ebb67-3529-46dc-9771-1c0efe6796f2︡{"tex":{"tex":"\\frac{\\sqrt{z\\left(s\\right)}}{2 \\, z_{t}} = \\frac{\\cos\\left(\\theta\\left(z\\left(s\\right)\\right)\\right)}{2 \\, \\sqrt{z\\left(s\\right)}} + \\frac{\\sqrt{z\\left(s\\right)}}{R}","display":true}}︡{"tex":{"tex":"\\frac{\\sqrt{z\\left(s\\right)}}{2 \\, z_{t}} = -\\sin\\left(\\theta\\left(s\\right)\\right) \\sqrt{z\\left(s\\right)} D[0]\\left(\\theta\\right)\\left(z\\left(s\\right)\\right) + \\frac{\\cos\\left(\\theta\\left(z\\left(s\\right)\\right)\\right)}{2 \\, \\sqrt{z\\left(s\\right)}}","display":true}}︡
+︠0fa52030-002d-4ba8-b6e1-aa47854ec4dc︠
+# text uses "z" for both a variable and a function of s
+# we use two symbols for those in Sage
+# "zeta" for the variable and "z" for the function of s
+
+
+%var zeta
+
+eq_phzf5 = eq_phzf4.substitute(z(s)== zeta)
+eq_phzf5
+
+︡9bd2324e-f45c-4e1d-bfc1-049dc0e16683︡{"tex":{"tex":"\\frac{\\sqrt{\\zeta}}{2 \\, z_{t}} = -\\sqrt{\\zeta} \\sin\\left(\\theta\\left(s\\right)\\right) D[0]\\left(\\theta\\right)\\left(\\zeta\\right) + \\frac{\\cos\\left(\\theta\\left(\\zeta\\right)\\right)}{2 \\, \\sqrt{\\zeta}}","display":true}}︡
+︠57255be0-f647-4246-af4a-2d68a95af7c5︠
+# (14) rhs of previous equation (eq_phzf5) is an exact derivative!
+
+h(zeta) = sqrt(zeta) * cos(theta(zeta))
+h(zeta)
+h.derivative(zeta)
+
+︡60374a54-a7d2-414c-8388-6926f399ccb7︡{"tex":{"tex":"\\sqrt{\\zeta} \\cos\\left(\\theta\\left(\\zeta\\right)\\right)","display":true}}︡{"tex":{"tex":"\\zeta \\ {\\mapsto}\\ -\\sqrt{\\zeta} \\sin\\left(\\theta\\left(\\zeta\\right)\\right) D[0]\\left(\\theta\\right)\\left(\\zeta\\right) + \\frac{\\cos\\left(\\theta\\left(\\zeta\\right)\\right)}{2 \\, \\sqrt{\\zeta}}","display":true}}︡
 ︠e9368163-f067-40cb-a79a-be2535895908︠
-# (14) rewrite (13) as an exact derivative
-
-# theta becomes a function of z instead of a variable
-
-theta = function('theta',z)
-theta
-
-︡aff15d9e-23b7-4579-bb99-d8cddc154b47︡{"tex":{"tex":"\\theta\\left(z\\left(s\\right)\\right)","display":true}}︡
-︠d922aea6-cc8e-4e17-a161-5626edfb5f44︠
-# (14) continued
-
-# g is the function whose exact derivative appeared in (13)
-%var zv
-
-g = function('g',zv)
-
-eq_g = g == z ^ (1/2) * cos(theta)
-eq_g
-eq_g.derivative(zv)
-
-# NOTE: dg/dz appears as D[0](g)(z), etc.
-
-
-︡48b10b2d-8817-4408-8e57-35f3d54d2de7︡{"tex":{"tex":"g\\left(\\mathit{zv}\\right) = \\cos\\left(\\theta\\left(z\\left(s\\right)\\right)\\right) \\sqrt{z\\left(s\\right)}","display":true}}︡{"tex":{"tex":"D[0]\\left(g\\right)\\left(\\mathit{zv}\\right) = 0","display":true}}︡
-︠9ff765b2-cbaf-4df9-9662-2005aeb2cb2d︠
-### I want to redo steps (10)-(14) using differential equations
-### instead of infinitesimals and use the chain rule.
-
-### To be continued.
-︡5714d3ee-bc5d-4ac4-a4c0-789b705d6187︡
-︠464f3bd4-303e-4095-9765-dc397e669730︠
-# (10) diff eq
-
-# s     arc length
-
-%var s
-
-de_10 = (1/R) == diff(theta,s)
-de_10
-︡221ceb1b-9016-4366-90f7-9c02abac871b︡{"tex":{"tex":"\\frac{1}{R} = 0","display":true}}︡
-︠ee9b6a9e-9ccc-4308-bd3c-6b42d00e5286︠
-# substitute right hand side of (13) for d(theta)/dz
-
-dthdz = derivative(theta,z)
-dthdz
-
-eq_phz3b.lhs()
-
-eq_de1 = eq_g.derivative(z).subs(dthdz == eq_phz3b.lhs())
-eq_de1
-
-︡38b9b1a9-8fa2-4002-b323-0ccaf18eaa09︡{"tex":{"tex":"D[0]\\left(\\theta\\right)\\left(z\\right)","display":true}}︡{"tex":{"tex":"\\frac{\\sqrt{z}}{2 \\, z_{t}}","display":true}}︡{"tex":{"tex":"D[0]\\left(g\\right)\\left(z\\right) = -\\frac{z \\sin\\left(\\theta\\left(z\\right)\\right)}{2 \\, z_{t}} + \\frac{\\cos\\left(\\theta\\left(z\\right)\\right)}{2 \\, \\sqrt{z}}","display":true}}︡
-︠196db583-aff6-4235-b3cc-7c1e157c71c8︠
 
 
 

@@ -1,6 +1,13 @@
 # README file for SageMathCloud (SMC) worksheets
 
-Files with extension of .sagews are meant to be run in SageMathCloud, a free service for scientific computing.
+## About SageMathCloud
+
+Files with extension of .sagews are run in SageMathCloud (SMC), a free service for scientific computing.
+In an SMC worksheet, you can run programs in several languages, including Python, Sage, GNU Octave, and R.
+SageMathCloud also lets you run IPython notebooks. For example, the class tutorial [01_phug
+oid/01_01_Phugoid_Theory.ipynb](https://github.com/numerical-mooc/numerical-mooc/blob/master/lessons/01_phugoid/01_01_Phugoid_Theory.ipynb)
+can be viewed and executed in SMC -
+just import it into a project and click on the .ipynb file in the Files listing.
 
 ## Quick-start instructions for running an SMC worksheet
 
